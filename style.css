@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Lobster+Two:wght@700&display=swap");
+
+/* TODO: https://www.freecodecamp.org/news/intro-to-css-grid-layout/ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lobster Two', cursive, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#banner{
+    font-family: 'Aguafina Script', cursive;
+    font-size: 64px;
+    color: rgb(255, 174, 0);
+    text-shadow: 2px 2px 2px rgb(255, 200, 0);
+}
+
+#burger {
+  margin: 64px 64px;
+}
+
+#burger-menu {
+  margin: 64px 64px;
+}
+
+.menu-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #eee;
+  background-color: #111;
+  color: white;
+  font-size: 22px;
+}
+
+.menu-button > p {
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.top-bun {
+  background-color: sandybrown;
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.bottom-bun {
+  background-color: sandybrown;
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+#burger .meat {
+  background-color: saddlebrown;
+  height: 20px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.toppings {
+  height: 10px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.cheese {
+  background-color: yellow;
+}
+
+.onion {
+  background-color: violet;
+}
+
+.tomato {
+  background-color: tomato;
+}
+
+.lettuce {
+  background-color: green;
+}
+
+.pickles {
+  background-color: greenyellow;
+}
+
+#invoice {
+  float: left;
+  padding: 32px;
+}
+
+#priceList {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#priceList:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+#priceList .header {
+  background-color: #111;
+  color: white;
+  font-size: 22px;
+}
+
+#priceList li {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#priceList .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #04aa6d;
+  color: white;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.menu-button button {
+    background-color: #04aa6d;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu-button button:hover {
+    background-color: #04aa6d;
+    color: rgb(108, 201, 255);
+    box-shadow: 0 8px 12px 0 #005180c5;
+  }
+
+  .menu-button button:disabled {
+    background-color: #7c7c7c;
+    color: rgb(80, 80, 80);
+  }
+
+  .menu-button button:disabled:hover {
+    color: rgb(173, 173, 173);
+    box-shadow: none;
+  }
