@@ -11,52 +11,57 @@
 </head>
 
 <body>
+    <header>
+        <h1 id="banner">Welcome to BotBurger</h1>
+    </header>
+    
+    <div id="container">
+        
+        <div id="burger-menu">
+            <div class="menu-button" >
+                <button>➖</button><p>Meat</p><button>➕</button>
+            </div>
+            <div class="menu-button" >
+                <button>➖</button><p>Lettuce</p><button>➕</button>
+            </div>
+            <div class="menu-button" >
+                <button>➖</button><p>Tomato</p><button>➕</button>
+            </div>
+            <div class="menu-button" >
+                <button>➖</button><p>Onion</p><button>➕</button>
+            </div>
+            <div class="menu-button" >
+                <button>➖</button><p>Pickles</p><button>➕</button>
+            </div>
+            <div class="menu-button" >
+                <button>➖</button><p>Cheese</p><button>➕</button>
+            </div>
+        </div>
 
-    <h1 id="banner">Welcome to BotBurger</h1>
-    
-<div id="container">
-    
-    <div id="burger-menu">
-        <div class="menu-button" >
-            <button>➖</button><p>Meat</p><button>➕</button>
+        <div id="burger">
+            <div class="top-bun"></div>
+            <div id="pickles"></div>
+            <div id="onion"></div>
+            <div id="tomato"></div>
+            <div id="lettuce"></div>
+            <div id="cheese"></div>
+            <div id="meat"></div>
+            <div class="bottom-bun"></div>
         </div>
-        <div class="menu-button" >
-            <button>➖</button><p>Lettuce</p><button>➕</button>
-        </div>
-        <div class="menu-button" >
-            <button>➖</button><p>Tomato</p><button>➕</button>
-        </div>
-        <div class="menu-button" >
-            <button>➖</button><p>Onion</p><button>➕</button>
-        </div>
-        <div class="menu-button" >
-            <button>➖</button><p>Pickles</p><button>➕</button>
-        </div>
-        <div class="menu-button" >
-            <button>➖</button><p>Cheese</p><button>➕</button>
+
+        <div id="invoice">
+            <ul id="priceList">
+                <li class="header">Total Price</li>
+                <li class="grey" id="price-value">$ 5.00</li>
+                <li>Buns x1: $5.00</li>
+                <li class="grey"><a href="#" class="button">Order</a></li>
+            </ul>
         </div>
     </div>
 
-    <div id="burger">
-        <div class="top-bun"></div>
-        <div id="pickles"></div>
-        <div id="onion"></div>
-        <div id="tomato"></div>
-        <div id="lettuce"></div>
-        <div id="cheese"></div>
-        <div id="meat"></div>
-        <div class="bottom-bun"></div>
-    </div>
-
-    <div id="invoice">
-        <ul id="priceList">
-          <li class="header">Total Price</li>
-          <li class="grey" id="price-value">$ 10.00</li>
-          <li>Buns x1: $10.00</li>
-          <li class="grey"><a href="#" class="button">Order</a></li>
-        </ul>
-      </div>
-</div>
+    <footer>
+        <p>&copy; 2020 BotBurger</p>
+    </footer>
     
     <script src="main.js"></script>
 </body>
