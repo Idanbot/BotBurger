@@ -1,0 +1,12 @@
+{
+  "name": "BotBurger",
+  "version": "1.0.0",
+  "description": "Burger builder using Vanilla JS",
+  "scripts": {
+    "start": "serve",
+  },
+  "dependencies": {
+    "serve": "^10.0.1"
+  },
+  "author": "Idan Botbol"
+}
