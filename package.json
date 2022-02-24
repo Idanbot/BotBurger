@@ -1,9 +1,9 @@
 {
-  "name": "BotBurger",
+  "name": "bot_burger",
   "version": "1.0.0",
   "description": "Burger builder using Vanilla JS",
   "scripts": {
-    "start": "serve",
+    "start": "serve"
   },
   "dependencies": {
     "serve": "^10.0.1"
