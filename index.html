@@ -11,12 +11,17 @@
 </head>
 
 <body>
+    <div class="container">
+
     <header>
-        <h1 id="banner">Welcome to BotBurger</h1>
+        <h3 id="banner">🍔 BotBurger</h3>
+        <a href="#" id="about">About</a>
+        <a href="#" id="contact us">Contact us</a>
+        <a href="#" id="locations">Locations</a>
+        <a href="#" id="hiring">We're hiring!</a>
     </header>
-    
-    <div id="container">
-        
+
+    <main>
         <div id="burger-menu">
             <div class="menu-button" >
                 <button>➖</button><p>Meat</p><button>➕</button>
@@ -54,16 +59,24 @@
                 <li class="header">Total Price</li>
                 <li class="grey" id="price-value">$ 5.00</li>
                 <li>Buns x1: $5.00</li>
-                <li class="grey"><a href="#" class="button">Order</a></li>
+                <li class="grey"><a href="#" class="button" id="order">Order</a></li>
             </ul>
         </div>
-    </div>
+    </main>
 
     <footer>
-        <p>&copy; 2020 BotBurger</p>
+        <div id="foot-info">
+            <p>&copy; 2022 BotBurger</p>
+            <p> Made with ❤️ by Idan Botbol </p>
+            <br>
+            <a href="https://github.com/Idanbot" target="_blank"><img src="assets/images/github.png"  style="width: 42px; height: 44px;"/></a>
+        </div>
     </footer>
     
+    </div>
+
     <script src="main.js"></script>
+    <script src="player.js"></script>
 </body>
 
 </html>
